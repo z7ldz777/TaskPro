@@ -36,7 +36,11 @@ The project is designed with a decoupled architecture. This means the user inter
 ## 🚀 How to Run the Project
 
 ### 1. Install Dependencies
-2. Choose Your Database Connection Mode
+Open your terminal in the frontend project folder and install the required packages:
+```bash
+npm install
+---
+### 2. Choose Your Database Connection Mode
 TaskPro can run in offline demo mode or connect directly to a backend.
 
 Open both src/services/authService.js and src/services/taskService.js.
@@ -62,6 +66,4 @@ When running the project with USE_MOCK = true, use these credentials to access t
 Email: test@example.com
 
 Password: password123
-Open your terminal in the frontend project folder and install the required packages:
-```bash
-npm install
+
