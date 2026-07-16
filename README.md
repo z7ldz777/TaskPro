@@ -37,9 +37,10 @@ The project is designed with a decoupled architecture. This means the user inter
 
 ### 1. Install Dependencies
 Open your terminal in the frontend project folder and install the required packages:
-```bash
-npm install
+Bash``` npm install  ``` ````
+
 ---
+
 ### 2. Choose Your Database Connection Mode
 TaskPro can run in offline demo mode or connect directly to a backend.
 
@@ -56,8 +57,8 @@ const USE_MOCK = false;
 3. Run the Development Server
 Launch the local Vite server:
 
-Bash
-npm run dev
+Bash```` npm run dev ````
+
 Open the local URL provided in your terminal (typically http://localhost:5173).
 
 🔑 Test Credentials (Offline Mock Mode)
